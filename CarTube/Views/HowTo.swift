@@ -15,18 +15,20 @@ struct HowTo: View {
         Form {
             List {
                 Section {
-                    Text("Get in your car, plug in your phone, and start CarTube on CarPlay. It may ask you to tap your phone once to wake the screen, but that's all you have to do. Enjoy a full-feature YouTube experience in the car!\n\nUsing the app on CarPlay requires your phone screen to be on at all times. Don't worry, it'll do this automatically. CarTube will keep your phone screen on with your Lock Screen dimmed, and will let you know if there's anything else you need to do.\n\nYou do not need to have this app open to run CarTube on CarPlay.")
+                    Text("Khởi động xe và cắm điện thoại qua cổng USB có hỗ trợ Carplay. Yêu cầu bạn chạm để mở màn hình điện thoại. Tận hưởng trải nghiệm YouTube đầy đủ tính năng trong ô tô!\n\nViệc sử dụng ứng dụng trên CarPlay yêu cầu màn hình điện thoại của bạn phải luôn bật. Nhưng CarTube sẽ giữ cho màn hình điện thoại của bạn luôn bật với Màn hình khóa bị làm mờ và sẽ cho bạn biết nếu bạn cần làm gì khác.\n\nBạn không cần phải mở ứng dụng này để chạy CarTube trên CarPlay.
+
+")
                 }
                 Section {
-                    Button("View Source on GitHub") {
-                        openURL(URL(string: "https://github.com/Avangelista/CarTube")!)
+                    Button("Facebook") {
+                        openURL(URL(string: "https://www.facebook.com/nguyenhadong.vp")!)
                     }
-                    Button("Donate to Avangelista") {
-                        openURL(URL(string: "https://ko-fi.com/avangelista")!)
+                    Button("Zalo") {
+                        openURL(URL(string: "https://zalo.me/0788077555")!)
                     }
                 }
             }
-        }.navigationBarTitle("How to Use", displayMode: .inline)
+        }.navigationBarTitle("HDSD", displayMode: .inline)
     }
 }
 
